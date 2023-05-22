@@ -1,0 +1,26 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Default",
+	"origin" : "Buttplug_20230521_222502",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Link Vibration Amounts" : 1.0,
+				"Vibration Amount 1" : 0.0,
+				"Vibration Amount 2" : 0.0,
+				"Vibration Amount 3" : 0.0,
+				"Vibration Amount 4" : 0.0,
+				"live.text[1]" : 0.0,
+				"live.text[2]" : 0.0
+			}
+
+		}
+
+	}
+
+}
