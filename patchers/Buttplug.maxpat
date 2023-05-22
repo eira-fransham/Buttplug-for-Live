@@ -137,18 +137,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-57",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.301895081996918, 47.169813513755798, 29.5, 22.0 ],
-					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
@@ -530,7 +518,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -1000,6 +987,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Link Vibration Amounts",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Link",
@@ -1027,6 +1016,8 @@
 					"presentation_rect" : [ 135.556603729724884, 13.71698135137558, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Vibration Amount 4",
 							"parameter_shortname" : "Amt 4",
 							"parameter_type" : 0,
@@ -1052,6 +1043,8 @@
 					"presentation_rect" : [ 92.556603729724884, 13.71698135137558, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Vibration Amount 3",
 							"parameter_shortname" : "Amt 3",
 							"parameter_type" : 0,
@@ -1077,6 +1070,8 @@
 					"presentation_rect" : [ 49.556603729724884, 13.71698135137558, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Vibration Amount 2",
 							"parameter_shortname" : "Amt 2",
 							"parameter_type" : 0,
@@ -1102,6 +1097,8 @@
 					"presentation_rect" : [ 6.556603729724884, 13.71698135137558, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Vibration Amount 1",
 							"parameter_shortname" : "Amt 1",
 							"parameter_type" : 0,
@@ -1117,7 +1114,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
-					"items" : "Satisfyer Top Secret+",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2136,35 +2133,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 187.801895081996918, 72.0, 188.0, 72.0 ],
-					"source" : [ "obj-57", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"midpoints" : [ 16.0, 42.0, 279.0, 42.0, 279.0, 195.0, 300.0, 195.0, 300.0, 288.0, 339.833370923995972, 288.0 ],
 					"order" : 2,
-					"source" : [ "obj-58", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 16.0, 66.0, 0.0, 66.0, 0.0, 594.0, 203.47773897886276, 594.0 ],
-					"order" : 3,
-					"source" : [ "obj-58", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"midpoints" : [ 16.0, 42.0, 187.801895081996918, 42.0 ],
-					"order" : 4,
 					"source" : [ "obj-58", 0 ]
 				}
 
